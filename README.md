@@ -18,6 +18,10 @@ Many investors, especially those who are new, find it difficult to gather inform
 ## Tech Stack
 <b>HTML, CSS, Bootstrap, JavaScript, Django, Pandas, numpy, seaborn, maplotlib, tensorflow, keras and Tkinter.</b>
 
+## How to set up
+- First install all requirements using <b>pip install -r requirements.txt</b>
+- After that run the server using <b>python manage.py runserver</b> and enjoy the website.
+
 ## Team Members
 Team Name: <b>CryptoSquad</b>
 1. [Muskan Maheshwari](https://github.com/Muskan02)
