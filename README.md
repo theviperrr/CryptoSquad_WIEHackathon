@@ -20,6 +20,6 @@ Many investors, especially those who are new, find it difficult to gather inform
 
 ## Team Members
 Team Name: <b>CryptoSquad</b>
-1. Muskan Maheshwari
-2. Neha Gupta
-3. Romil Bagle
+1. [Muskan Maheshwari](https://github.com/Muskan02)
+2. [Neha Gupta](https://github.com/neha-netizen)
+3. [Romil Bagle](https://github.com/theviperrr)
