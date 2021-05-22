@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ldlto5%$cv!h_%x3fzg05lq3s_wm=dzem=!@m9omzo(ewj31uh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['crypto-e-express.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -143,5 +143,5 @@ STATICFILES_DIRS = (
 )
 
 #  Add configuration for static files storage using whitenoise
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
