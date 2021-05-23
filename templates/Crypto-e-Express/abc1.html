@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crypto-e-Express</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet">
+<style>
+.home{
+	padding-top: 4vh;
+	background-color: #4fbfa8;
+	overflow: hidden;
+}
+#sol_font{
+	text-align: center;
+	text-decoration-color: #808080;
+}
+#cap_font{
+	text-align: center;
+	font-size: 70px;
+}
+.home img{
+	height:350px;
+	margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+.content{
+	margin-right: 15vw;
+	margin-left: 15vw;
+	font-size: 18px;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+	font-style: italic;
+	font-family: open sans-serif;
+}
+.team_dis{
+	background-color: #fafafa;
+	overflow: hidden;
+	padding: 50px;
+}
+.team_img img{
+	height: 30vh;
+	width: 24vw;
+	}
+#team_head{
+	font-size: 50px;
+	margin-top: 50px;
+}
+.dream{
+	padding-top: 65px;
+	padding-bottom: 5%;
+}
+#dream_font{
+	text-align: center;
+	text-decoration-color: #808080;
+}
+.dream img{ 
+	height:350px;
+	margin-left: auto;
+    margin-right: auto;
+	width:100%;
+}
+.cont_head{
+	margin-right: 15vw;
+	margin-left: 15vw;
+}
+.cities{
+	padding-top: 10vh;
+	background-color: #4fbfa8;
+	overflow: hidden;
+	}
+.cities img{
+	height:120px;
+	margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+.building1 img{
+	height: 250px;
+	width: 100%
+	margin-right: 0px;
+	padding-right: 0px;
+}
+.card {
+  border:1px solid  #C0C0C0;
+  transition:.2s;
+  width: 100%;
+  height:100%;
+  border-radius:5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.ul_list{
+	margin-bottom:100px;
+	padding-top: 5%;
+	padding-left: 12%;
+}
+.li{
+	display:inline-block;
+    list-style-type:none;
+    height:250px;
+    width:270px;
+    background-color: white; 
+    margin-right:30px;
+}
+.card img{
+	height:250px;
+	width:270px;
+}
+
+@media only screen and (max-width:600px){
+	.ul_list{
+		padding-left: 21%;
+	}
+}
+</style>
+
+</head>
+<body>
+	<section class="home">
+			<h1 id="cap_font"><strong>Bitcoin</strong></h1>
+			<img src="12/Bitcoin.jpg">
+			<p class="content">Bitcoin and the blockchain that it uses are a revolution in technology. It enables information to be stored in a distributed manner so that no-one has control over the network and that no-one is required to trust anyone else in the network.</p>
+	</section>
+	<section class="team_dis">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="team_img">
+					<img src="12/a.png">
+				</div>
+				</div>
+				<div class="col-lg-6">
+					<h1 id="team_head"><strong>A Team Works<br>&nbsp;Behind You</strong></h1> 
+				</div>
+		</div>
+		</div>
+	</section>
+	<section class="dream">
+		<p class="content">Bitcoin’s creator, Satoshi Nakamoto, did an excellent job of designing Bitcoin to have the necessary amount of complexity and no more. Despite this, there are several details of Bitcoin that are necessary to its functionality. In this section, we’ll describe the functionality and underlying purpose of the nuts and bolts of the Bitcoin protocol.</p>
+<p class="content"><b>Block Size</b><br>
+Cryptocurrency is based on the blockchain, a data structure consisting of a series of blocks chained together using cryptographic hash functions. One of the key features of a Bitcoin block is the block size.
+
+In the original Bitcoin protocol, the maximum size of a block in the blockchain was not specified. However, this left the protocol potentially vulnerable to Denial of Service attacks where attackers flood the network with tons of transactions to make block creation and blockchain storage impossible. In order to prevent Denial of Service attacks, the decision was made to limit Bitcoin blocks to a maximum size of one megabyte, ensuring that blocks did not become too large to effectively transmit and store in network nodes.
+
+This decision places an upper limit on the number of transactions that can fit within a single block. This can cause delays in processing transactions since any transactions that cannot fit in the current block must wait until the next block to be included in the blockchain.
+
+Bitcoin Cash, an altcoin forked from the Bitcoin protocol increases the block size from 1 MB to 8 MB. This is intended as a simple change to the protocol that nonetheless increases the maximum number of transactions that can be processed by a factor of eight.
+<br><b>Transaction Speed</b><br>
+Another issue of the Bitcoin cryptocurrency is the speed at which transactions can be processed and trusted. Because of the possibility of divergent blockchains, it’s usually recommended that the people involved in a transaction wait until it has been included in three blocks of the blockchain before fully trusting it. Since Bitcoin’s blocks are created every ten minutes, this could mean waiting half an hour for a transaction to process (which is a bit long to wait for a cup of coffee).
+
+The Lightning Network mentioned in the previous section also helps to alleviate the issues around transaction speed on Bitcoin. The Lightning Network is designed to provide instantaneous, trusted transactions by default. If something goes wrong, the transaction is simply performed on the blockchain itself. The theoretically infinite scalability of the Lightning Network means that the Bitcoin network can grow to meet user demand while providing security backed by blockchain technology.
+<br><b>Processing Fees</b><br>
+Bitcoin includes processing fees for two main reasons: helping to incentivize the miners that keep the network running and allowing users to pay for priority for their transactions. Since the network has a limited capacity, the ability to pay for priority makes it possible for users to ensure that urgent transactions are added to the blockchain as part of the next block to be created. However, when the load on the network is high, this means that transaction fees can rise to ridiculous levels as users in a hurry bid higher and higher for priority. In December 2017, average Bitcoin transaction fees rose as high as 28 USD. This made Bitcoin completely unusable for small transactions like buying a cup of coffee as the fee amounts exceeded the value being transferred. Other cryptocurrencies have been designed to operate in a feeless manner to allow users to perform transactions more similar to credit card transactions.
+<br><b>Potential Applications</b><br>
+Bitcoin was developed first and foremost as a means of performing financial transactions in a secure, decentralized manner. While it does have some level of support for developers to write scripts that run on the blockchain, the intention is for these scripts to be used to define how financial transactions operate. For example, a transaction may be designed to only go through when a set of conditions have been met (perhaps being signed by more than one party). Bitcoin was never designed to have the complete functionality of a standard computer and this limits what it can do.
+
+Other cryptocurrencies have been designed to give developers the ability to run any program on the blockchain that they can run on a standard computer. These “smart contract” platforms, like Ethereum and Cardano, expand the potential applications of the blockchain and have enabled the wave of new cryptocurrencies designed to provide certain functions or services. These systems have revolutionized how business is done by allowing old systems to be revised to make use of the advantages provided by the blockchain and by enabling previously impossible services and organizations to be created.
+
+
+ 
+ </p>
+	</section>
+	<section class="cities">
+		<h1 id="sol_font">OUR COMMUNITY</h1>
+		<h1 id="cap_font"><strong>Provides latest sources and Information </strong></h1>
+		<div class="container">
+			<div class="building1">
+		<img src="12/Bitcoingraph.png">
+		</div>
+	</div>
+     <div class="container">
+     <ul class="ul_list">
+   <li  style="display:inline-block; list-style-type:none; height:250px; width:270px; background-color: white; margin-right:30px;">
+         <div class="card">
+  <img src="12/h.jfif" alt="Avatar" style="width:100%">
+  <div class="container1">
+    <h4><b>Hal Finney</b></h4> 
+    <p>The receiver of the first Bitcoin</p> 
+  </div>
+</div>
+       </li>
+       <li style="display:inline-block; list-style-type:none; height:250px; width:270px; background-color: white; margin-right:30px;">
+         <div class="card">
+  <img src="12/i.jfif" alt="Avatar" style="width:100%">
+  <div class="container1">
+    <h4><b>Satoshi Nakamoto</b></h4> 
+    <p>Creater and richest holder</p> 
+  </div>
+</div>
+       </li>
+      <li style="display:inline-block; list-style-type:none; height:250px; width:270px; background-color: white; margin-right:30px;">
+         <div class="card">
+  <img src="12/j.jfif" alt="Avatar" style="width:100%">
+  <div class="container1">
+    <h4><b>Barry Silbert</b></h4> 
+    <p>Top Bitcoin Investor</p> 
+  </div>
+</div>
+       </li>
+     </ul>
+ </div>
+</section>
+<section style="background-color: #f0ffff">
+		
+		
+			<center>	<img src="12/logo.jpeg" height="100vh" ></center>
+		
+	</section>
+</body>
+</html>
